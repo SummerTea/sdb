@@ -7,8 +7,8 @@
 from sdb import torndb
 
 db = torndb.Connection(
-    host='10.19.28.145',
-    database='moda_demo',
+    host='127.0.0.1',
+    database='test',
     user='root',
     password='root'
 )
@@ -26,7 +26,7 @@ from sdb import pool
 
 pooldb = pool.PoolDB(
     pool_size = 10,
-    host='10.19.28.145',
+    host='127.0.0.1',
     database='moda_demo',
     user='root',
     password='root'
